@@ -18,6 +18,7 @@ Se questa relazione è stata già consegnata in precedenza, indicare qui
 
 ## Livello di scuola, classe/i, indirizzo
 A chi è rivolta questa attività?
+La lezione è rivolta agli studenti delle classi terze e quarte del liceo scientifico o dell'istituto tecnico ad indirizzo informatico. L'attività si colloca prevalentemente nell'ambito della disciplina di Informatica, con un focus particolare su reti e sicurezza informatica.
 
 In quale specifica disciplina scolastica (o le discipline, ovviamente
 l'informatica deve essere la disciplina prevalente) si colloca
