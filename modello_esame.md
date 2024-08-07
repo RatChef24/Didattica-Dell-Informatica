@@ -22,13 +22,26 @@ A chi è rivolta questa attività?
 La lezione è rivolta agli studenti delle classi terze e quarte del liceo scientifico o dell'istituto tecnico ad indirizzo informatico. L'attività si colloca prevalentemente nell'ambito della disciplina di Informatica, con un focus particolare su reti e sicurezza informatica.
 
 In quale specifica disciplina scolastica (o le discipline, ovviamente
-l'informatica deve essere la disciplina prevalente) si colloca
+l'informatica deve essere la disciplina prevalente) si colloca 
 l'attività?
 
 - Per la scuola dell'infanzia / primaria / scuole \"medie\" si può fare riferimento a una delle discipline nelle Indicazioni Nazionali, nei Nuovi Scenari, e/o alla disciplina Informatica dalla Proposta CINI
 - Per le scuole secondarie di secondo grado (superiori), fare riferimento ai documenti ministeriali (e secondariamente alla Proposta CINI)
 
+L'attività si colloca prevalentemente nell'ambito delle Tecnologie, con un focus particolare su reti e sicurezza informatica. In particolare, rifacendoci alla proposta CINI le competenze che verranno coperte dalla lezione sono:
+- Ambito Consapevolezza Digitale
+    * Sicurezza Informatica: Gli studenti impareranno l'importanza della sicurezza informatica e la protezione dei dati, inclusa la tutela della riservatezza dei dati individuali e la sicurezza della società (es. anonimato in rete)​​
+    * Uso consapevole della tecnologia: Saranno consapevoli dei modi appropriati/inappropriati, sicuri/pericolosi e responsabili/irresponsabili di usare la tecnologia informatica​
+- Ambito Programmazione
+    * Durante l'utilizzo di metasploit gli studenti dovranno scrivere comandi che applicano selezioni cicli e variabili.
+- Ambito Algoritmi
+    * Attraverso la pratica di attacchi e difese, comprenderanno la logica e il funzionamento di algoritmi di rete e sicurezza, applicando ragionamento logico per spiegare il funzionamento di questi algoritmi.
+    * Risolveranno problemi complessi scomponendoli in parti più piccole, tipica attività nel processo di penetrazione e testing delle reti.
+
+
 Può essere---adattata---rivolta a studenti di diverse età e indirizzi?
+
+L'attività può essere adattata nel caso gli studenti abbiano già delle competenze richieste per realizzare l'attività.
 
 
 ## Motivazione e Finalità
@@ -36,7 +49,7 @@ Spiegare brevemente (una sola frase) di che attività si tratta.
 
 Perché è importante svolgere questa attività nella scuola?
 
-La lezione propone un'attività di cybersecurity gamificata, dove gli studenti, organizzati in squadre, competono per raggiungere specifici traguardi: ottenere l'IP della macchina target, identificare i servizi attivi sulla macchina target, e ottenere l'accesso root alla stessa. È importante poiché introduce in modo pratico e coinvolgente i concetti di sicurezza informatica e il funzionamento degli strumenti di penetration testing.
+La lezione propone un'attività di cybersecurity gamificata, dove gli studenti, organizzati in squadre, competono per raggiungere specifici traguardi: ottenere l'IP della macchina target, identificare i servizi attivi sulla macchina target, e ottenere l'accesso root alla stessa. È importante poiché introduce in modo pratico e coinvolgente i concetti di sicurezza informatica e il funzionamento degli strumenti di penetration testing, dei concetti che normalmente non vengono affrontate in un programma di studi normale.  
 
 ## Innovatività
 Perché questa proposta è innovativa? Cosa è già presente su questo tema nella ricerca in Didattica dell'Informatica o nelle risorse disponibili online (è obbligatorio cercare risultati scientifici e risorse didattiche già presenti, e descriverli brevemente) e in cosa si differenzia/cosa mantiene/cosa va a migliorare questa proposta?
@@ -46,7 +59,7 @@ Questa proposta è innovativa in quanto integra l'elemento della gamification, r
 ## Prerequisiti
 Elencare i contenuti che si suppone siano già stati svolti e appresi dagli studenti
 
-Gli studenti dovrebbero avere una conoscenza di base dei concetti di rete, dei protocolli di comunicazione (come TCP/IP), e una familiarità preliminare con l'ambiente Linux e comandi di shell. È utile anche una conoscenza introduttiva dei concetti di sicurezza informatica e vulnerabilità.
+Gli studenti dovrebbero avere una conoscenza di base dei concetti di rete, e una familiarità preliminare con l'utilizzo del terminale di Linux. È utile. ma non richiesta anche una conoscenza introduttiva dei concetti di sicurezza informatica e vulnerabilità.
 ### Percorso
 Se si ipotizza che questa attività sia parte di un percorso ampio (troppo ampio per entrare tutto nella relazione) sullo stesso tema, descrivere qui il percorso in modo schematico/sintetico.
 Indicare su quali parti del percorso si concentrerà la relazione.
@@ -124,6 +137,7 @@ Deve contenere almeno:
 2. Materiale didattico per studenti, se si pensa di fornirlo (es. slide, esercizi, schede, riassunti...)
 
 La descrizione dovrebbe essere sufficientemente completa e dettagliata da consentire ad un insegnante di replicare l'esperienza senza sforzo (anche se poi starà al bravo insegnante eventualmente modificarla e adattarla al proprio contesto).
+
 
 # Bibliografia
 Citare le fonti utilizzate (si consiglia ad esempio bibtex o biblatex).
