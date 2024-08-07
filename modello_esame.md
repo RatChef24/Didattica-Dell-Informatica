@@ -64,13 +64,13 @@ Gli studenti dovrebbero avere una conoscenza di base dei concetti di rete, e una
 Se si ipotizza che questa attività sia parte di un percorso ampio (troppo ampio per entrare tutto nella relazione) sullo stesso tema, descrivere qui il percorso in modo schematico/sintetico.
 Indicare su quali parti del percorso si concentrerà la relazione.
 
-L'attività si inserisce in un percorso più ampio sulla sicurezza informatica, che può includere lezioni su crittografia, gestione delle chiavi, e protezione dei dati. In questa particolare lezione, ci si concentra sulla fase di penetration testing.eeee
+L'attività si inserisce in un percorso più ampio sulla sicurezza informatica, che può includere lezioni su crittografia, gestione delle chiavi, e protezione dei dati. In questa particolare lezione, ci si concentra sulla fase di penetration testing.
 
 ## Contenuti (spiegati a un informatico)
 Se si tratta di contenuti banalmente chiari per un informatico (e.g. riguardanti esami obbligatori della triennale), elencarli semplicemente.
 Se l'attività riguarda contenuti specifici o particolari (es. elaborazione immagini, crittografia, computazione quantistica, specifiche tecniche di IA, ...) illustrarli brevemente o fornire link, avendo in mente (solo in questa breve sezione) di spiegarli ad un informatico.
 
-Gli studenti utilizzeranno Kali Linux e Metasploit, due strumenti fondamentali nel penetration testing. Kali Linux è una distribuzione basata su Linux progettata per la sicurezza informatica, con una vasta gamma di strumenti preinstallati per testare la sicurezza dei sistemi. Metasploit è un framework che fornisce informazioni sugli exploit noti e consente di eseguire test di sicurezza.
+Gli studenti utilizzeranno Kali Linux, Metasploit e Metasploitable2, tre strumenti fondamentali nel penetration testing. Kali Linux è una distribuzione basata su Linux progettata per la sicurezza informatica, con una vasta gamma di strumenti preinstallati per testare la sicurezza dei sistemi. Metasploit è un framework che fornisce informazioni sugli exploit noti e consente di eseguire test di sicurezza. Metasploitable 2 é una distribuzione di Linux intenzionalmente vulnerabile, utilizza per fare pratica con la sicurezza informatica.
 ## Grandi idee
 Se ha senso per il materiale proposto, descrivere brevemente (qualche frase) quali sono le "grandi idee" (come spiegato a lezione) che questa attività vuole insegnare.
 
@@ -114,12 +114,11 @@ La lezione utilizza un approccio di gamification, in cui gli studenti competono 
 ## Tempi
 Un'idea generale e indicativa dei tempi richiesti
 
-La lezione è progettata per essere svolta in un arco di tempo di 4-5 ore, includendo una breve introduzione teorica, esercitazioni pratiche guidate, e una fase di competizione.
+La lezione è progettata per essere svolta in un arco di tempo di 2-3 ore, includendo una breve introduzione teorica, e una fase di competizione.
 ## Spazi
 Classe, laboratorio, cortile...
 
-L'attività richiede l'uso di un laboratorio informatico equipaggiato con computer in grado di eseguire Kali Linux, o una configurazione di macchine virtuali adeguata.aa
-
+L'attività richiede l'uso di un laboratorio informatico equipaggiato con computer in grado di eseguire Kali Linux, o una configurazione di macchine virtuali adeguata.
 ## Materiali e Strumenti
 Quali materiali e strumenti (hardware e software, di ogni tipo, non solo informatico) sono necessari?
 
