@@ -41,15 +41,17 @@ L'attività si colloca prevalentemente nell'ambito delle Tecnologie, con un focu
 
 Può essere---adattata---rivolta a studenti di diverse età e indirizzi?
 
-L'attività può essere adattata nel caso gli studenti abbiano già delle competenze richieste per realizzare l'attività.
+L'attività può essere modificata se gli studenti possiedono già le competenze necessarie per svolgerla. Idealmente, ci aspettiamo che uno studente idoneo a partecipare frequenti un liceo scientifico o un istituto tecnico con insegnamenti di base in informatica (come l'utilizzo del terminale Linux o della console PowerShell/Windows). Tuttavia, l'attività potrebbe risultare adatta anche a studenti di altri istituti.
 
 
 ## Motivazione e Finalità
 Spiegare brevemente (una sola frase) di che attività si tratta.
 
+La lezione propone un'attività di cybersecurity gamificata, dove gli studenti, organizzati in squadre, competono per raggiungere specifici traguardi.
+
 Perché è importante svolgere questa attività nella scuola?
 
-La lezione propone un'attività di cybersecurity gamificata, dove gli studenti, organizzati in squadre, competono per raggiungere specifici traguardi: ottenere l'IP della macchina target, identificare i servizi attivi sulla macchina target, e ottenere l'accesso root alla stessa. È importante poiché introduce in modo pratico e coinvolgente i concetti di sicurezza informatica e il funzionamento degli strumenti di penetration testing, dei concetti che normalmente non vengono affrontate in un programma di studi normale.  
+Insegnare questa attività nelle scuole è importante perché introduce in modo pratico e coinvolgente i concetti di sicurezza informatica e l'uso degli strumenti di penetration testing, argomenti che normalmente non fanno parte di un programma di studi tradizionale. La realizzazione dell'attività potrebbe avvicinare sia studenti curiosi sia coloro meno esperti a una disciplina come la cybersecurity, che generalmente non viene insegnata nelle scuole e risulta difficile da comprendere a causa della sua descrizione spesso vaga. Un approccio simulato ma comunque "sul campo", come quello proposto dall'attività, può aiutare a chiarire le idee a uno studente interessato alla cybersecurity, ma che non ha ancora compreso appieno di cosa si tratti.
 
 ## Innovatività
 Perché questa proposta è innovativa? Cosa è già presente su questo tema nella ricerca in Didattica dell'Informatica o nelle risorse disponibili online (è obbligatorio cercare risultati scientifici e risorse didattiche già presenti, e descriverli brevemente) e in cosa si differenzia/cosa mantiene/cosa va a migliorare questa proposta?
@@ -59,7 +61,7 @@ Questa proposta è innovativa in quanto integra l'elemento della gamification, r
 ## Prerequisiti
 Elencare i contenuti che si suppone siano già stati svolti e appresi dagli studenti
 
-Gli studenti dovrebbero avere una conoscenza di base dei concetti di rete, e una familiarità preliminare con l'utilizzo del terminale di Linux. È utile. ma non richiesta anche una conoscenza introduttiva dei concetti di sicurezza informatica e vulnerabilità.
+Gli studenti dovrebbero avere una conoscenza molto basilare dei concetti di rete, e una familiarità preliminare con l'utilizzo del terminale di Linux. È utile. ma non richiesta anche una conoscenza introduttiva dei concetti di sicurezza informatica e vulnerabilità.
 ### Percorso
 Se si ipotizza che questa attività sia parte di un percorso ampio (troppo ampio per entrare tutto nella relazione) sullo stesso tema, descrivere qui il percorso in modo schematico/sintetico.
 Indicare su quali parti del percorso si concentrerà la relazione.
