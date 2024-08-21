@@ -66,13 +66,18 @@ Gli studenti dovrebbero avere una conoscenza molto basilare dei concetti di rete
 Se si ipotizza che questa attività sia parte di un percorso ampio (troppo ampio per entrare tutto nella relazione) sullo stesso tema, descrivere qui il percorso in modo schematico/sintetico.
 Indicare su quali parti del percorso si concentrerà la relazione.
 
-L'attività si inserisce in un percorso più ampio sulla sicurezza informatica, che può includere lezioni su crittografia, gestione delle chiavi, e protezione dei dati. In questa particolare lezione, ci si concentra sulla fase di penetration testing.
+L'attività potrebbe essere inclusa in un percorso più ampio sulla sicurezza informatica, in questa particolare lezione, ci si concentra sulla fase di penetration testing.
 
 ## Contenuti (spiegati a un informatico)
 Se si tratta di contenuti banalmente chiari per un informatico (e.g. riguardanti esami obbligatori della triennale), elencarli semplicemente.
 Se l'attività riguarda contenuti specifici o particolari (es. elaborazione immagini, crittografia, computazione quantistica, specifiche tecniche di IA, ...) illustrarli brevemente o fornire link, avendo in mente (solo in questa breve sezione) di spiegarli ad un informatico.
 
 Gli studenti utilizzeranno Kali Linux, Metasploit e Metasploitable2, tre strumenti fondamentali nel penetration testing. Kali Linux è una distribuzione basata su Linux progettata per la sicurezza informatica, con una vasta gamma di strumenti preinstallati per testare la sicurezza dei sistemi. Metasploit è un framework che fornisce informazioni sugli exploit noti e consente di eseguire test di sicurezza. Metasploitable 2 é una distribuzione di Linux intenzionalmente vulnerabile, utilizza per fare pratica con la sicurezza informatica.
+
+https://www.metasploit.com/
+https://docs.rapid7.com/metasploit/metasploitable-2/
+https://www.google.com/search?client=firefox-b-d&q=kali+linux
+
 ## Grandi idee
 Se ha senso per il materiale proposto, descrivere brevemente (qualche frase) quali sono le "grandi idee" (come spiegato a lezione) che questa attività vuole insegnare.
 
@@ -139,6 +144,93 @@ Deve contenere almeno:
 
 La descrizione dovrebbe essere sufficientemente completa e dettagliata da consentire ad un insegnante di replicare l'esperienza senza sforzo (anche se poi starà al bravo insegnante eventualmente modificarla e adattarla al proprio contesto).
 
+
+Per completare la sezione **Sviluppo dei contenuti** del tuo documento in maniera prolissa e precisa, ecco una proposta strutturata in modo tale da fornire agli studenti e agli insegnanti una guida dettagliata per l'attività di cybersecurity. La sezione è divisa in due parti principali: una guida per gli insegnanti e il materiale didattico per gli studenti.
+
+
+
+## 1. Guida per gli insegnanti
+
+### 1.1 Fasi dell'attività
+
+#### Fase 1: Introduzione teorica (30 minuti)
+L'attività inizia con una lezione frontale introduttiva di circa 30 minuti in cui vengono introdotti i concetti chiave di cybersecurity, l'uso di Kali Linux e Metasploit, e l'importanza del penetration testing. Durante questa fase, gli insegnanti dovrebbero:
+- Spiegare brevemente cosa si intende per sicurezza informatica e quali sono le principali minacce (es. malware, phishing, attacchi DDoS).
+- Introdurre gli strumenti che verranno utilizzati durante l'attività (Kali Linux, Metasploit, Metasploitable 2) spiegando le loro funzioni principali.
+- Mostrare esempi pratici di attacchi informatici e le tecniche di difesa, utilizzando video o dimostrazioni live.
+
+**Consigli per l'insegnante:** Utilizzare presentazioni visive, come slide, per mantenere alta l'attenzione degli studenti. Includere domande interattive per verificare la comprensione.
+
+#### Fase 2: Ambientamento e familiarizzazione con l'ambiente (20 minuti)
+
+In questa fase, gli studenti si familiarizzano con l'ambiente di lavoro preconfigurato, che include Kali Linux e Metasploitable 2. L'obiettivo è permettere loro di acquisire confidenza con gli strumenti che utilizzeranno durante l'attività pratica.
+
+    Obiettivo: Gli studenti esploreranno l'interfaccia di Kali Linux e verificheranno il corretto funzionamento di Metasploit e Metasploitable 2. Saranno guidati nell'uso dei comandi base e delle funzionalità principali di Metasploit.
+
+    Attività guidata:
+        Esplorazione dell'interfaccia: L'insegnante guiderà gli studenti attraverso l'interfaccia di Kali Linux, spiegando brevemente le diverse sezioni (es. terminale, menu delle applicazioni, cartelle di sistema).
+        Verifica degli strumenti: Gli studenti eseguiranno alcuni comandi base nel terminale di Kali Linux per assicurarsi che tutto funzioni correttamente. Per esempio, verificheranno la connessione alla rete e lanceranno Metasploit per un rapido controllo della sua operatività.
+        Prima scansione: Gli studenti eseguiranno una semplice scansione di rete con nmap per vedere in azione uno degli strumenti principali e capire come identificare dispositivi e servizi attivi nella rete.
+
+Consigli per l'insegnante: Fornire un elenco di comandi e funzionalità essenziali con una breve descrizione. Assicurarsi che tutti gli studenti abbiano familiarizzato con l'ambiente prima di procedere alla fase successiva. Se necessario, rispondere a eventuali domande o dubbi che gli studenti potrebbero avere riguardo all'uso degli strumenti.
+
+#### Fase 3: Svolgimento dell'attività pratica (1 ora e 30 minuti)
+Gli studenti lavorano in squadre per completare una serie di obiettivi utilizzando Kali Linux e Metasploit. Ogni squadra deve:
+- Eseguire una scansione di rete per identificare i dispositivi e i servizi attivi.
+- Sfruttare le vulnerabilità di Metasploitable 2 per ottenere l'accesso root.
+- Documentare ogni passaggio e spiegare le tecniche utilizzate.
+
+**Consigli per l'insegnante:** Fornire un elenco di vulnerabilità comuni che gli studenti possono cercare di sfruttare. Assicurarsi che ci sia tempo sufficiente per discutere i risultati e risolvere eventuali problemi tecnici. Fornire inoltre una lista di obiettivi da realizzare.
+
+#### Fase 4: Discussione e valutazione (30 minuti)
+Alla fine dell'attività, si tiene una discussione plenaria per rivedere i risultati ottenuti da ciascuna squadra. Gli studenti dovrebbero presentare i loro risultati e discutere le difficoltà incontrate.
+
+- **Valutazione:** L'insegnante valuta il raggiungimento degli obiettivi di apprendimento basandosi su:
+  - Capacità di raggiungere gli obiettivi proposti dal professore
+  - Il modo in cui lo studente ha raggiunto gli obiettivi
+
+
+### 1.2 Suggerimenti per la valutazione
+
+Per valutare il raggiungimento degli obiettivi di apprendimento, si consiglia di utilizzare una valutazione formativa e continuativa. Ecco alcune linee guida:
+- **Osservazione continua:** Durante l'attività pratica, l'insegnante osserva come gli studenti lavorano in squadra, come risolvono i problemi e come applicano le conoscenze teoriche.
+- **Questionari di autovalutazione:** Alla fine dell'attività, gli studenti compilano un breve questionario in cui riflettono sulle competenze acquisite e sulle difficoltà incontrate.
+- **Valutazione delle presentazioni:** Le presentazioni dei risultati finali sono valutate in base alla chiarezza, alla correttezza tecnica e alla capacità di spiegare i processi utilizzati.
+
+## 2. Materiale didattico per studenti
+
+### 2.1 Slide introduttive
+Le slide introduttive dovrebbero coprire i seguenti punti:
+- **Cos'è la cybersecurity?** Definizione e importanza.
+- **Strumenti e tecniche:** Introduzione a Kali Linux, Metasploit e Metasploitable 2.
+- **Obiettivi dell'attività:** Cosa gli studenti impareranno e faranno durante l'attività.
+
+**Suggerimento:** Includere esempi visivi e casi studio reali per rendere le informazioni più concrete.
+
+### 2.2 Dispense tecniche
+Le dispense tecniche forniscono una guida dettagliata su come utilizzare Kali Linux e Metasploit, includendo:
+- Comandi base di Linux utili per l'attività.
+- Guida all'utilizzo di Metasploit per la scansione e l'exploit delle vulnerabilità.
+- Esempi di attacchi controllati e spiegazione del loro funzionamento.
+
+**Suggerimento:** Aggiungere esercizi pratici a fine capitolo per consolidare l'apprendimento.
+
+### 2.3 Schede di esercizi
+Le schede di esercizi contengono attività pratiche che gli studenti devono completare, come:
+- Eseguire una scansione di rete e documentare i risultati.
+- Tentare un attacco exploit su Metasploitable 2 e spiegare i passaggi seguiti.
+- Proporre una difesa per una delle vulnerabilità scoperte.
+
+**Suggerimento:** Gli esercizi dovrebbero essere progressivi, iniziando con compiti semplici e aumentando gradualmente la complessità.
+
+### 2.4 Riassunti e mappe concettuali
+Fornire riassunti e mappe concettuali che aiutino gli studenti a rivedere i concetti chiave trattati durante la lezione. Le mappe concettuali dovrebbero collegare i concetti di rete, sicurezza informatica e penetration testing.
+
+**Suggerimento:** Includere domande di verifica a fine sezione per stimolare la riflessione e l'autovalutazione.
+
+---
+
+Questa struttura dettagliata assicura che l'attività possa essere replicata con successo da qualsiasi insegnante, fornendo al contempo agli studenti tutte le risorse necessarie per comprendere e applicare i concetti di cybersecurity.
 
 # Bibliografia
 Citare le fonti utilizzate (si consiglia ad esempio bibtex o biblatex).
