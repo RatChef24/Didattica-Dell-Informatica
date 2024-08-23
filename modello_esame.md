@@ -1,7 +1,7 @@
 ---
 title: Titolo Materiale Didattico
 author: Riccardo Benedetti
-date: 01/04/24
+date: 23/08/24
 ---
 
 Esame di Didattica dell'Informatica, A.A. 2023/2024
