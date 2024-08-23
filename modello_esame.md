@@ -19,7 +19,7 @@ Se questa relazione è stata già consegnata in precedenza, indicare qui
 ## Livello di scuola, classe/i, indirizzo
 A chi è rivolta questa attività?
 
-La lezione è rivolta agli studenti delle classi terze e quarte del liceo scientifico o dell'istituto tecnico ad indirizzo informatico. L'attività si colloca prevalentemente nell'ambito della disciplina di Informatica, con un focus particolare su reti e sicurezza informatica.
+La lezione è rivolta agli studenti del triennio del liceo scientifico o dell'istituto tecnico ad indirizzo informatico. L'attività si colloca prevalentemente nell'ambito della disciplina di Informatica, con un focus particolare su reti e sicurezza informatica.
 
 In quale specifica disciplina scolastica (o le discipline, ovviamente
 l'informatica deve essere la disciplina prevalente) si colloca 
@@ -28,16 +28,16 @@ l'attività?
 - Per la scuola dell'infanzia / primaria / scuole \"medie\" si può fare riferimento a una delle discipline nelle Indicazioni Nazionali, nei Nuovi Scenari, e/o alla disciplina Informatica dalla Proposta CINI
 - Per le scuole secondarie di secondo grado (superiori), fare riferimento ai documenti ministeriali (e secondariamente alla Proposta CINI)
 
-L'attività si colloca prevalentemente nell'ambito delle Tecnologie, con un focus particolare su reti e sicurezza informatica. In particolare, rifacendoci alla proposta CINI le competenze che verranno coperte dalla lezione sono:
+L'attività si colloca prevalentemente nell'ambito delle Tecnologie, con un focus particolare su reti e sicurezza informatica.
+In particolare, rifacendoci alla proposta CINI le competenze che verranno coperte dalla lezione sono:
 - Ambito Consapevolezza Digitale
-    * Sicurezza Informatica: Gli studenti impareranno l'importanza della sicurezza informatica e la protezione dei dati, inclusa la tutela della riservatezza dei dati individuali e la sicurezza della società (es. anonimato in rete)​​
+    * Sicurezza Informatica: Gli studenti impareranno l'importanza della sicurezza informatica e la protezione dei dati.
     * Uso consapevole della tecnologia: Saranno consapevoli dei modi appropriati/inappropriati, sicuri/pericolosi e responsabili/irresponsabili di usare la tecnologia informatica​
 - Ambito Programmazione
     * Durante l'utilizzo di metasploit gli studenti dovranno scrivere comandi che applicano selezioni cicli e variabili.
 - Ambito Algoritmi
     * Attraverso la pratica di attacchi e difese, comprenderanno la logica e il funzionamento di algoritmi di rete e sicurezza, applicando ragionamento logico per spiegare il funzionamento di questi algoritmi.
     * Risolveranno problemi complessi scomponendoli in parti più piccole, tipica attività nel processo di penetrazione e testing delle reti.
-
 
 Può essere---adattata---rivolta a studenti di diverse età e indirizzi?
 
@@ -51,12 +51,18 @@ La lezione propone un'attività di cybersecurity gamificata, dove gli studenti, 
 
 Perché è importante svolgere questa attività nella scuola?
 
-Insegnare questa attività nelle scuole è importante perché introduce in modo pratico e coinvolgente i concetti di sicurezza informatica e l'uso degli strumenti di penetration testing, argomenti che normalmente non fanno parte di un programma di studi tradizionale. La realizzazione dell'attività potrebbe avvicinare sia studenti curiosi sia coloro meno esperti a una disciplina come la cybersecurity, che generalmente non viene insegnata nelle scuole e risulta difficile da comprendere a causa della sua descrizione spesso vaga. Un approccio simulato ma comunque "sul campo", come quello proposto dall'attività, può aiutare a chiarire le idee a uno studente interessato alla cybersecurity, ma che non ha ancora compreso appieno di cosa si tratti.
+Insegnare questa attività nelle scuole è importante perché introduce in modo pratico e coinvolgente i concetti di sicurezza informatica e l'uso degli strumenti di penetration testing, argomenti che normalmente non fanno parte di un programma di studi tradizionale.
+\
+La realizzazione dell'attività potrebbe avvicinare sia studenti curiosi sia coloro meno esperti a una disciplina come la cybersecurity, che generalmente non viene insegnata nelle scuole e risulta difficile da comprendere a causa della sua descrizione spesso vaga.
+\
+Un approccio simulato ma comunque "sul campo", come quello proposto dall'attività, può aiutare a chiarire le idee a uno studente interessato alla cybersecurity, ma che non ha ancora compreso appieno di cosa si tratti.
 
 ## Innovatività
 Perché questa proposta è innovativa? Cosa è già presente su questo tema nella ricerca in Didattica dell'Informatica o nelle risorse disponibili online (è obbligatorio cercare risultati scientifici e risorse didattiche già presenti, e descriverli brevemente) e in cosa si differenzia/cosa mantiene/cosa va a migliorare questa proposta?
 
-Questa proposta è innovativa in quanto integra l'elemento della gamification, rendendo l'apprendimento della sicurezza informatica più coinvolgente e pratico rispetto a metodi tradizionali. Rispetto alle risorse didattiche esistenti, che spesso si limitano a lezioni frontali o laboratoriali senza competizione, questa lezione aggiunge un elemento competitivo che stimola la partecipazione attiva e l'applicazione pratica delle conoscenze teoriche.
+Questa proposta è innovativa in quanto integra l'elemento della gamification, rendendo l'apprendimento della sicurezza informatica più coinvolgente e pratico rispetto a metodi tradizionali.
+\
+Rispetto alle risorse didattiche esistenti, che spesso si limitano a lezioni frontali o laboratoriali senza competizione, questa lezione aggiunge un elemento competitivo che stimola la partecipazione attiva e l'applicazione pratica delle conoscenze teoriche.
 
 ## Prerequisiti
 Elencare i contenuti che si suppone siano già stati svolti e appresi dagli studenti
@@ -72,7 +78,7 @@ L'attività potrebbe essere inclusa in un percorso più ampio sulla sicurezza in
 Se si tratta di contenuti banalmente chiari per un informatico (e.g. riguardanti esami obbligatori della triennale), elencarli semplicemente.
 Se l'attività riguarda contenuti specifici o particolari (es. elaborazione immagini, crittografia, computazione quantistica, specifiche tecniche di IA, ...) illustrarli brevemente o fornire link, avendo in mente (solo in questa breve sezione) di spiegarli ad un informatico.
 
-Gli studenti utilizzeranno Kali Linux, Metasploit e Metasploitable2, tre strumenti fondamentali nel penetration testing. Kali Linux è una distribuzione basata su Linux progettata per la sicurezza informatica, con una vasta gamma di strumenti preinstallati per testare la sicurezza dei sistemi. Metasploit è un framework che fornisce informazioni sugli exploit noti e consente di eseguire test di sicurezza. Metasploitable 2 é una distribuzione di Linux intenzionalmente vulnerabile, utilizza per fare pratica con la sicurezza informatica.
+Gli studenti utilizzeranno Kali Linux, Metasploit e Metasploitable2, tre strumenti fondamentali nel penetration testing. Kali Linux è una distribuzione basata su Linux progettata per la sicurezza informatica, con una vasta gamma di strumenti preinstallati per testare la sicurezza dei sistemi. Metasploit è un framework che fornisce informazioni sugli exploit noti e consente di eseguire test di sicurezza. Metasploitable 2 é una distribuzione di Linux intenzionalmente vulnerabile, utilizzata per fare pratica con la sicurezza informatica.
 
 https://www.metasploit.com/
 https://docs.rapid7.com/metasploit/metasploitable-2/
@@ -85,7 +91,9 @@ L'attività insegna le grandi idee del penetration testing etico, dell'analisi d
 ## Traguardi e Obiettivi
 Nelle varie sottosezioni, vanno elencati traguardi e obiettivi di apprendimento che si vuole raggiungere con le attività proposte
 
-### Traguardi/obiettivi generali dai documenti ministeriali/proposte
+
+E' possibile (ma non obbligatorio e non sempre necessario) aggiungere i propri traguardi e obiettivi generali
+
 Indicare quali traguardi/obiettivi generali presenti nei documenti rilevanti vengono
 raggiunti (es. Indicazioni nazionali per il primo ciclo,
 Proposta CINI numerata, Indicazioni nazionali / linee guida per scuola
@@ -97,8 +105,6 @@ Traguardi/obiettivi generali dai documenti ministeriali/proposte
     2.Applicazione delle conoscenze teoriche a situazioni pratiche.
     3.Sviluppo delle capacità di problem solving e pensiero critico.
 
-### Traguardi/obiettivi generali
-E' possibile (ma non obbligatorio e non sempre necessario) aggiungere i propri traguardi e obiettivi generali
 
 ### Obiettivi specifici in forma operativa
 Gli obiettivi vanno scritti ipotizzando che inizino tutti con "Lo studente/la studentessa è in grado di...",
@@ -168,9 +174,9 @@ In questa fase, gli studenti si familiarizzano con l'ambiente di lavoro preconfi
     Obiettivo: Gli studenti esploreranno l'interfaccia di Kali Linux e verificheranno il corretto funzionamento di Metasploit e Metasploitable 2. Saranno guidati nell'uso dei comandi base e delle funzionalità principali di Metasploit.
 
     Attività guidata:
-        Esplorazione dell'interfaccia: L'insegnante guiderà gli studenti attraverso l'interfaccia di Kali Linux, spiegando brevemente le diverse sezioni (es. terminale, menu delle applicazioni, cartelle di sistema).
-        Verifica degli strumenti: Gli studenti eseguiranno alcuni comandi base nel terminale di Kali Linux per assicurarsi che tutto funzioni correttamente. Per esempio, verificheranno la connessione alla rete e lanceranno Metasploit per un rapido controllo della sua operatività.
-        Prima scansione: Gli studenti eseguiranno una semplice scansione di rete con nmap per vedere in azione uno degli strumenti principali e capire come identificare dispositivi e servizi attivi nella rete.
+    Esplorazione dell'interfaccia: L'insegnante guiderà gli studenti attraverso l'interfaccia di Kali Linux, spiegando brevemente le diverse sezioni (es. terminale, menu delle applicazioni, cartelle di sistema).
+    Verifica degli strumenti: Gli studenti eseguiranno alcuni comandi base nel terminale di Kali Linux per assicurarsi che tutto funzioni correttamente. Per esempio, verificheranno la connessione alla rete e lanceranno Metasploit per un rapido controllo della sua operatività.
+    Prima scansione: Gli studenti eseguiranno una semplice scansione di rete con nmap per vedere in azione uno degli strumenti principali e capire come identificare dispositivi e servizi attivi nella rete.
 
 Consigli per l'insegnante: Fornire un elenco di comandi e funzionalità essenziali con una breve descrizione. Assicurarsi che tutti gli studenti abbiano familiarizzato con l'ambiente prima di procedere alla fase successiva. Se necessario, rispondere a eventuali domande o dubbi che gli studenti potrebbero avere riguardo all'uso degli strumenti.
 
@@ -198,27 +204,26 @@ Alla fine dell'attività, si valutano i risultati e si discutono i passaggi effe
 
 Per valutare il raggiungimento degli obiettivi di apprendimento, si consiglia di utilizzare una valutazione formativa e continuativa. Ecco alcune linee guida:
 - **Osservazione continua:** Durante l'attività pratica, l'insegnante osserva come gli studenti lavorano in squadra, come risolvono i problemi e come applicano le conoscenze teoriche.
-- **Questionari di autovalutazione:** Alla fine dell'attività, gli studenti compilano un breve questionario in cui riflettono sulle competenze acquisite e sulle difficoltà incontrate.
 - **Valutazione delle presentazioni:** Le presentazioni dei risultati finali sono valutate in base alla chiarezza, alla correttezza tecnica e alla capacità di spiegare i processi utilizzati.
 
 ## 2. Materiale didattico per studenti
 
 ### 2.1 Slide introduttive
 Le slide introduttive dovrebbero coprire i seguenti punti:
-- **Cos'è la cybersecurity?** Definizione e importanza.
-- **Strumenti e tecniche:** Introduzione a Kali Linux, Metasploit e Metasploitable 2.
+- **Cos'è la cybersecurity?** Definizione ed importanza.
 - **Obiettivi dell'attività:** Cosa gli studenti impareranno e faranno durante l'attività.
+- **Strumenti e tecniche:** Introduzione a Kali Linux, Metasploit e Metasploitable 2.
+
 
 
 ### 2.2 Dispense tecniche
-Le dispense tecniche forniscono una guida dettagliata su come utilizzare Kali Linux e Metasploit, includendo:
+Le dispense tecniche forniscono un "cheatsheet" su come utilizzare i tool richiesti dall'attività, includendo:
 - Comandi base di Linux utili per l'attività.
-- Guida all'utilizzo di Metasploit per la scansione e l'exploit delle vulnerabilità.
+- Breve guida sul funzionamento di Metasploit
 - Esempi di attacchi controllati e spiegazione del loro funzionamento.
 
-**Suggerimento:** Aggiungere esercizi pratici a fine capitolo per consolidare l'apprendimento.
 
-### 2.3 Schede di esercizi
+### 2.3 Schede di esercizi da svolgere
 Le schede di esercizi contengono attività pratiche che gli studenti devono completare, come:
 - Eseguire una scansione di rete e documentare i risultati.
 - Tentare un attacco exploit su Metasploitable 2 e spiegare i passaggi seguiti.
@@ -235,6 +240,13 @@ Questa struttura dettagliata assicura che l'attività possa essere replicata con
 Citare le fonti utilizzate (si consiglia ad esempio bibtex o biblatex).
 Scegliere lo stile preferito, e mantenerlo coerente ([esempio](https://www.acm.org/publications/authors/reference-formatting))
 
+[Metasploit](https://www.metasploit.com/)
+
+[Metasploitable 2](https://docs.rapid7.com/metasploit/metasploitable-2/)
+
+[Kali Linux](https://www.kali.org/)
+
+
 # Licenza del documento
 Specificare la licenza del documento.
 
@@ -244,16 +256,7 @@ colleghi o insegnanti.
 
 NB: non basta specificare una licenza, bisogna anche rispettarla (es. non includere testi o immagini con licenze non compatibili con quella scelta, non copiare lunghi pezzi di testo senza rendere chiaro che si tratta di una citazione)
 
-# Meta-sezione (da rimuovere): consigli
 
-Per ricercare articoli scientifici, potete usare [Scholar](https://scholar.google.com/). Se connessi da rete UniBO o da casa tramite un [proxy](https://sba.unibo.it/it/almare/servizi-e-strumenti-almare/ezproxy), potete accedere alle banche dati degli editori. Per esempio, potete cercare sulla [Digital Library dell'ACM](https://dl.acm.org/), eventualmente [specializzando la ricerca](https://dl.acm.org/sig/sigcse) ai soli paper relativi al gruppo di interesse per la didattica dell'Informatica (NB: non utilizzare i suggerimenti che compaiono mentre si digita il testo da cercare, pena la perdita del filtro sui soli paper SIGCSE. Notare che, comunque, paper di Didattica dell'Informatica sono pubblicati anche al di fuori di SIGCSE, ad esempio in conferenze e riviste di Human-Computer interaction).
 
-Per tutto il documento, seguire le buone regole su come evitare il plagio ([esempio dal MIT](https://integrity.mit.edu/handbook/writing-original-work))
+Questo lavoro è distribuito con Licenza Creative Commons Attribuzione - Non commerciale - Condividi allo stesso modo 4.0 Internazionale (CC BY-NC-SA 4.0). Per visualizzare una copia della licenza, visita [Creative Commons](https://creativecommons.org/licenses/by-nc-sa/4.0/).
 
-Per tutto il documento, seguire le regole sulla scrittura in italiano, da pag. 6 [qui](https://corsi.unibo.it/magistrale/semiotica/prova-finale/indicazioni-per-la-redazione-della-tesi-di-laurea-semiotica.pdf/@@download/file/Indicazioni%20per%20la%20redazione%20della%20tesi%20di%20laurea%20Semiotica.pdf) (se usate bibtex, potete ignorare la dolorosa gestione manuale dei riferimenti bibliografici)
-
-La struttura (sezioni e sottosezioni) qui fornita va rispettata con precisione.
-
-La tabella iniziale (titolo, autore, data) non va riprodotta in formato tabellare: sono campi utili per inserire nel documento formattato le relative informazioni (es. finiranno nei corrispettivi campi per titolo, autore, data se si converte questo documento con pandoc per generare latex o html).
-
-I docenti non valutano la relazione il base alla sua lunghezza: meglio una relazione breve e non ripetitiva, ma che dice esattamente le cose che mostrano comprensione dei contenuti del corso. Attenzione però ad inserire sufficienti dettagli affinché un insegnante possa replicare l'attività.
