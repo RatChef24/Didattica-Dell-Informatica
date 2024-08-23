@@ -175,15 +175,19 @@ In questa fase, gli studenti si familiarizzano con l'ambiente di lavoro preconfi
 Consigli per l'insegnante: Fornire un elenco di comandi e funzionalità essenziali con una breve descrizione. Assicurarsi che tutti gli studenti abbiano familiarizzato con l'ambiente prima di procedere alla fase successiva. Se necessario, rispondere a eventuali domande o dubbi che gli studenti potrebbero avere riguardo all'uso degli strumenti.
 
 #### Fase 3: Svolgimento dell'attività pratica (1 ora e 30 minuti)
-Gli studenti lavorano in squadre per completare una serie di obiettivi utilizzando Kali Linux e Metasploit. Ogni squadra deve:
-- Eseguire una scansione di rete per identificare i dispositivi e i servizi attivi.
+Gli studenti lavorano in squadre per completare una serie di obiettivi utilizzando Kali Linux e Metasploit. 
+Si consigliano degli obiettivi concreti ma non troppo complicati, ad esempio:
+- Eseguire una scansione di rete per identificare i dispositivi, i servizi attivi e le loro vulnerabilitá.
 - Sfruttare le vulnerabilità di Metasploitable 2 per ottenere l'accesso root.
-- Documentare ogni passaggio e spiegare le tecniche utilizzate.
+- Sfruttare le vulnerabilitá dei server presenti nella macchina per ottenerne accesso.
+
+Gli studenti, dovranno poi documentare ogni passaggio effettuato, e ne discuteranno con l'insegnante al termine dell'attivitá.
+
 
 **Consigli per l'insegnante:** Fornire un elenco di vulnerabilità comuni che gli studenti possono cercare di sfruttare. Assicurarsi che ci sia tempo sufficiente per discutere i risultati e risolvere eventuali problemi tecnici. Fornire inoltre una lista di obiettivi da realizzare.
 
 #### Fase 4: Discussione e valutazione (30 minuti)
-Alla fine dell'attività, si tiene una discussione plenaria per rivedere i risultati ottenuti da ciascuna squadra. Gli studenti dovrebbero presentare i loro risultati e discutere le difficoltà incontrate.
+Alla fine dell'attività, si valutano i risultati e si discutono i passaggi effettuati.
 
 - **Valutazione:** L'insegnante valuta il raggiungimento degli obiettivi di apprendimento basandosi su:
   - Capacità di raggiungere gli obiettivi proposti dal professore
@@ -205,7 +209,6 @@ Le slide introduttive dovrebbero coprire i seguenti punti:
 - **Strumenti e tecniche:** Introduzione a Kali Linux, Metasploit e Metasploitable 2.
 - **Obiettivi dell'attività:** Cosa gli studenti impareranno e faranno durante l'attività.
 
-**Suggerimento:** Includere esempi visivi e casi studio reali per rendere le informazioni più concrete.
 
 ### 2.2 Dispense tecniche
 Le dispense tecniche forniscono una guida dettagliata su come utilizzare Kali Linux e Metasploit, includendo:
@@ -223,10 +226,6 @@ Le schede di esercizi contengono attività pratiche che gli studenti devono comp
 
 **Suggerimento:** Gli esercizi dovrebbero essere progressivi, iniziando con compiti semplici e aumentando gradualmente la complessità.
 
-### 2.4 Riassunti e mappe concettuali
-Fornire riassunti e mappe concettuali che aiutino gli studenti a rivedere i concetti chiave trattati durante la lezione. Le mappe concettuali dovrebbero collegare i concetti di rete, sicurezza informatica e penetration testing.
-
-**Suggerimento:** Includere domande di verifica a fine sezione per stimolare la riflessione e l'autovalutazione.
 
 ---
 
