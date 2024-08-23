@@ -29,7 +29,7 @@ l'attività?
 - Per le scuole secondarie di secondo grado (superiori), fare riferimento ai documenti ministeriali (e secondariamente alla Proposta CINI)
 
 L'attività si colloca prevalentemente nell'ambito delle Tecnologie, con un focus particolare su reti e sicurezza informatica.
-In particolare, rifacendoci alla proposta CINI le competenze che verranno coperte dalla lezione sono:
+In particolare, rifacendoci alla proposta CINI le competenze che verranno coperte dalla lezione sono[^1]:
 - Ambito Consapevolezza Digitale
     * Sicurezza Informatica: Gli studenti impareranno l'importanza della sicurezza informatica e la protezione dei dati.
     * Uso consapevole della tecnologia: Saranno consapevoli dei modi appropriati/inappropriati, sicuri/pericolosi e responsabili/irresponsabili di usare la tecnologia informatica​
@@ -43,6 +43,7 @@ Può essere---adattata---rivolta a studenti di diverse età e indirizzi?
 
 L'attività può essere modificata se gli studenti possiedono già le competenze necessarie per svolgerla. Idealmente, ci aspettiamo che uno studente idoneo a partecipare frequenti un liceo scientifico o un istituto tecnico con insegnamenti di base in informatica (come l'utilizzo del terminale Linux o della console PowerShell/Windows). Tuttavia, l'attività potrebbe risultare adatta anche a studenti di altri istituti.
 
+[^1]: Proposta CINI per l'insegnamento dell'informatica nelle scuole: https://www.consorzio-cini.it/index.php/it/component/attachments/download/745
 
 ## Motivazione e Finalità
 Spiegare brevemente (una sola frase) di che attività si tratta.
@@ -78,11 +79,13 @@ L'attività potrebbe essere inclusa in un percorso più ampio sulla sicurezza in
 Se si tratta di contenuti banalmente chiari per un informatico (e.g. riguardanti esami obbligatori della triennale), elencarli semplicemente.
 Se l'attività riguarda contenuti specifici o particolari (es. elaborazione immagini, crittografia, computazione quantistica, specifiche tecniche di IA, ...) illustrarli brevemente o fornire link, avendo in mente (solo in questa breve sezione) di spiegarli ad un informatico.
 
-Gli studenti utilizzeranno Kali Linux, Metasploit e Metasploitable2, tre strumenti fondamentali nel penetration testing. Kali Linux è una distribuzione basata su Linux progettata per la sicurezza informatica, con una vasta gamma di strumenti preinstallati per testare la sicurezza dei sistemi. Metasploit è un framework che fornisce informazioni sugli exploit noti e consente di eseguire test di sicurezza. Metasploitable 2 é una distribuzione di Linux intenzionalmente vulnerabile, utilizzata per fare pratica con la sicurezza informatica.
+Gli studenti utilizzeranno Kali Linux [^1], Metasploit [^2] e Metasploitable2[^3], tre strumenti fondamentali nel penetration testing. Kali Linux è una distribuzione basata su Linux progettata per la sicurezza informatica, con una vasta gamma di strumenti preinstallati per testare la sicurezza dei sistemi. Metasploit è un framework che fornisce informazioni sugli exploit noti e consente di eseguire test di sicurezza. Metasploitable 2 é una distribuzione di Linux intenzionalmente vulnerabile, utilizzata per fare pratica con la sicurezza informatica.
 
-https://www.metasploit.com/
-https://docs.rapid7.com/metasploit/metasploitable-2/
-https://www.google.com/search?client=firefox-b-d&q=kali+linux
+[^1]: "Kali Linux Documentation." https://www.kali.org/docs/
+\
+[^2]: "Metasploit Framework Documentation." https://docs.metasploit.com/
+\
+[^3]: "Metasploitable2." https://docs.rapid7.com/metasploit/metasploitable-2//
 
 ## Grandi idee
 Se ha senso per il materiale proposto, descrivere brevemente (qualche frase) quali sono le "grandi idee" (come spiegato a lezione) che questa attività vuole insegnare.
@@ -187,6 +190,8 @@ Si consigliano degli obiettivi concreti ma non troppo complicati, ad esempio:
 - Sfruttare le vulnerabilità di Metasploitable 2 per ottenere l'accesso root.
 - Sfruttare le vulnerabilitá dei server presenti nella macchina per ottenerne accesso.
 
+[^1]: "Metasploitable2 Exploitability Guide." https://docs.rapid7.com/metasploit/metasploitable-2-exploitability-guide/
+\
 Gli studenti, dovranno poi documentare ogni passaggio effettuato, e ne discuteranno con l'insegnante al termine dell'attivitá.
 
 
@@ -240,11 +245,14 @@ Questa struttura dettagliata assicura che l'attività possa essere replicata con
 Citare le fonti utilizzate (si consiglia ad esempio bibtex o biblatex).
 Scegliere lo stile preferito, e mantenerlo coerente ([esempio](https://www.acm.org/publications/authors/reference-formatting))
 
-[Metasploit](https://www.metasploit.com/)
+1. [Metasploit](https://www.metasploit.com/)
 
-[Metasploitable 2](https://docs.rapid7.com/metasploit/metasploitable-2/)
+2. [Metasploitable 2](https://docs.rapid7.com/metasploit/metasploitable-2/)
 
-[Kali Linux](https://www.kali.org/)
+3. [Kali Linux](https://www.kali.org/)
+
+4. [Proposta CINI per l'insegnamento dell'informatica nelle scuole](https://www.consorzio-cini.it/index.php/it/component/attachments/download/745/)
+
 
 
 # Licenza del documento
