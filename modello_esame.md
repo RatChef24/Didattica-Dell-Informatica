@@ -79,13 +79,13 @@ L'attività potrebbe essere inclusa in un percorso più ampio sulla sicurezza in
 Se si tratta di contenuti banalmente chiari per un informatico (e.g. riguardanti esami obbligatori della triennale), elencarli semplicemente.
 Se l'attività riguarda contenuti specifici o particolari (es. elaborazione immagini, crittografia, computazione quantistica, specifiche tecniche di IA, ...) illustrarli brevemente o fornire link, avendo in mente (solo in questa breve sezione) di spiegarli ad un informatico.
 
-Gli studenti utilizzeranno Kali Linux [^1], Metasploit [^2] e Metasploitable2[^3], tre strumenti fondamentali nel penetration testing. Kali Linux è una distribuzione basata su Linux progettata per la sicurezza informatica, con una vasta gamma di strumenti preinstallati per testare la sicurezza dei sistemi. Metasploit è un framework che fornisce informazioni sugli exploit noti e consente di eseguire test di sicurezza. Metasploitable 2 é una distribuzione di Linux intenzionalmente vulnerabile, utilizzata per fare pratica con la sicurezza informatica.
+Gli studenti utilizzeranno Kali Linux [^2], Metasploit [^3] e Metasploitable2[^4], tre strumenti fondamentali nel penetration testing. Kali Linux è una distribuzione basata su Linux progettata per la sicurezza informatica, con una vasta gamma di strumenti preinstallati per testare la sicurezza dei sistemi. Metasploit è un framework che fornisce informazioni sugli exploit noti e consente di eseguire test di sicurezza. Metasploitable 2 é una distribuzione di Linux intenzionalmente vulnerabile, utilizzata per fare pratica con la sicurezza informatica.
 
-[^1]: "Kali Linux Documentation." https://www.kali.org/docs/
+[^2]: "Kali Linux Documentation." https://www.kali.org/docs/
 \
-[^2]: "Metasploit Framework Documentation." https://docs.metasploit.com/
+[^3]: "Metasploit Framework Documentation." https://docs.metasploit.com/
 \
-[^3]: "Metasploitable2." https://docs.rapid7.com/metasploit/metasploitable-2//
+[^4]: "Metasploitable2." https://docs.rapid7.com/metasploit/metasploitable-2//
 
 ## Grandi idee
 Se ha senso per il materiale proposto, descrivere brevemente (qualche frase) quali sono le "grandi idee" (come spiegato a lezione) che questa attività vuole insegnare.
