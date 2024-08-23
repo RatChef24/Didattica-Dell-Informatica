@@ -208,8 +208,10 @@ Alla fine dell'attività, si valutano i risultati e si discutono i passaggi effe
 ### 1.2 Suggerimenti per la valutazione
 
 Per valutare il raggiungimento degli obiettivi di apprendimento, si consiglia di utilizzare una valutazione formativa e continuativa. Ecco alcune linee guida:
-- **Osservazione continua:** Durante l'attività pratica, l'insegnante osserva come gli studenti lavorano in squadra, come risolvono i problemi e come applicano le conoscenze teoriche.
+- **Osservazione continua:** Durante l'attività pratica, l'insegnante osserva come gli studenti lavorano in squadra, come rissolvono i problemi e come applicano le conoscenze teoriche.
 - **Valutazione delle presentazioni:** Le presentazioni dei risultati finali sono valutate in base alla chiarezza, alla correttezza tecnica e alla capacità di spiegare i processi utilizzati.
+
+**Consigli per l'insegnante:** Dato che l'attivitá viene svolta simulando una competizione potrebbe essere indicato promuovere positivamente la competitivitá tra le varie squadre, ad esempio creando una classifica finale con i punteggi ottenuti dalle squadre.
 
 ## 2. Materiale didattico per studenti
 
