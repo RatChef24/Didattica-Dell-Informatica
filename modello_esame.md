@@ -58,6 +58,7 @@ La realizzazione dell'attività potrebbe avvicinare sia studenti curiosi sia col
 \
 Un approccio simulato ma comunque "sul campo", come quello proposto dall'attività, può aiutare a chiarire le idee a uno studente interessato alla cybersecurity, ma che non ha ancora compreso appieno di cosa si tratti.
 
+
 ## Innovatività
 Perché questa proposta è innovativa? Cosa è già presente su questo tema nella ricerca in Didattica dell'Informatica o nelle risorse disponibili online (è obbligatorio cercare risultati scientifici e risorse didattiche già presenti, e descriverli brevemente) e in cosa si differenzia/cosa mantiene/cosa va a migliorare questa proposta?
 
@@ -114,9 +115,13 @@ Gli obiettivi vanno scritti ipotizzando che inizino tutti con "Lo studente/la st
 seguendo la tassonomia di Bloom rivisitata (o le altre tassonomie mostrate),
 e facendo attenzione a non cadere negli errori tipici, come spiegato in classe.
 
-1.Lo studente è in grado di identificare e utilizzare gli strumenti di Kali Linux e Metasploit.
+1.Lo studente è in grado di identificare e utilizzare alcuni strumenti di Kali Linux e Metasploit.
+\
 2.Lo studente è in grado di effettuare una scansione di rete per identificare indirizzi IP e servizi attivi.
-3.Lo studente è in grado di eseguire un attacco controllato per ottenere accesso root su una macchina target.
+\
+3.Lo studente è in grado di eseguire alcuni attacchi su una macchina virtuale Metasploitable2.
+\
+4.Lo studente ottiene una panoramica sulla cybersecurity, che apre a possibilitá di approfondimento.
 
 ## Metodologie didattiche
 Indicare quali metodologie didattiche si utilizzano - sia quelle più generali (es. lezione frontale, dialogata, cooperative learning, flipped classroom) sia quelle specifiche (es. unplugged, pair-programming) citate o discusse a lezione - e spiegarle brevemente.
@@ -126,7 +131,12 @@ Massima libertà di introdurre altre metodologie non spiegate a lezione, debitam
 
 Se si parla di didattica della programmazione, fare anche riferimento ai relativi concetti (macchina concettuale, misconcezioni, visualizzazione, program comprehension, ...) spiegati a lezione.
 
-La lezione utilizza un approccio di gamification, in cui gli studenti competono in squadre per completare obiettivi specifici. Questo metodo stimola l'apprendimento attivo e collaborativo, con elementi di apprendimento basato su progetti (PBL). Le spiegazioni teoriche saranno integrate con esercitazioni pratiche.
+La lezione utilizza un approccio di gamification, in cui gli studenti competono in squadre per completare obiettivi specifici.
+
+
+Questo metodo stimola l'apprendimento attivo e collaborativo, con elementi di apprendimento basato su progetti (PBL) Le spiegazioni teoriche saranno integrate con esercitazioni pratiche.
+
+L'apprendimento collaborativo puó inoltre aiutare studenti che possono trovarsi piú in difficoltá, avendo un modo diretto con cui interfacciarsi con i proprio compagni.
 ## Tempi
 Un'idea generale e indicativa dei tempi richiesti
 
@@ -139,7 +149,9 @@ L'attività richiede l'uso di un laboratorio informatico equipaggiato con comput
 Quali materiali e strumenti (hardware e software, di ogni tipo, non solo informatico) sono necessari?
 
 1.Computer con Kali Linux installato o accesso a macchine virtuali con Kali Linux.
+\
 2.Accesso a internet per aggiornamenti e ricerche.
+\
 3.Documentazione su Metasploit e su tecniche di penetration testing.
 # Sviluppo dei contenuti
 *Questa deve essere la parte più corposa del documento.*
@@ -229,6 +241,8 @@ Le dispense tecniche forniscono un "cheatsheet" su come utilizzare i tool richie
 - Breve guida sul funzionamento di Metasploit
 - Esempi di attacchi controllati e spiegazione del loro funzionamento.
 
+La presenza delle dispenze tecniche dovrebbero aiutare gli studenti che trovano piú difficoltá nello svolgimento dell'attivitá.
+
 
 ### 2.3 Schede di esercizi da svolgere
 Le schede di esercizi contengono attività pratiche che gli studenti devono completare, come:
@@ -237,6 +251,8 @@ Le schede di esercizi contengono attività pratiche che gli studenti devono comp
 - Proporre una difesa per una delle vulnerabilità scoperte.
 
 **Suggerimento:** Gli esercizi dovrebbero essere progressivi, iniziando con compiti semplici e aumentando gradualmente la complessità.
+\
+Potrebbe inoltre essere opportuno aggiungere degli esercizi "extra", che propongono un livello di difficoltá piú elevato, cosí da offrire una sfida per gli studenti piú competenti.
 
 
 ---
